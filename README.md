@@ -1,6 +1,6 @@
 # scrna-py-workflow
 
-A practice workflow for processing and analyzing single-cell RNA data in Python.
+A practice workflow for processing and analyzing single-cell RNA data in Python. Currently in early development, so scope and implementation details may change.
 
 ## Project Plan
 
@@ -9,11 +9,13 @@ A practice workflow for processing and analyzing single-cell RNA data in Python.
   - Treatment vs control study design, or variable with multiple groups.
   - Limited sample size to reduce time spent on sequencing files.
 - [ ] File processing.
-- [ ] Data preprocessing (QC, normalization)
-- [ ] Overview analyses (PCA)
-- [ ] Feature analysis (Scanpy)
+- [ ] Data preprocessing (QC, normalization).
+- [ ] Overview analysis (PCA).
+- [ ] Feature analysis (Scanpy).
 
 ## Recreate environment
+
+After cloning and with `requirements.txt` available, run:
 
 ```bash
 python3 -m venv .venv
