@@ -1,6 +1,6 @@
 # scrna-py-workflow
 
-A practice workflow for processing and analyzing single-cell RNA data in Python. Currently in early development, so scope and implementation details may change. The current plan involves following the Scanpy PBMC3k tutorial to get aquainted with Python, then reproducing a similar project structure for an scRNA-seq dataset on GEO.
+A practice workflow for processing and analyzing single-cell RNA data in Python. Currently in early development, so scope and implementation details may change. The first part involves following the Scanpy PBMC3k tutorial to get acquainted with scripting in Python. The second part is to reproduce a similar project structure for an scRNA-seq dataset on GEO. As an R/tidyverse user venturing into Python, I'd also like to acknowledge and boost [this relevant blog post](https://rebeccabarter.com/blog/2023-09-11-from_r_to_python) by Rebecca Barter and the [Python for Data Analysis](https://wesmckinney.com/book/) book by Wes McKinney.
 
 ## Project Plan
 
