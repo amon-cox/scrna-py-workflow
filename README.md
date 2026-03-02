@@ -1,17 +1,19 @@
 # scrna-py-workflow
 
-A practice workflow for processing and analyzing single-cell RNA data in Python. Currently in early development, so scope and implementation details may change.
+A practice workflow for processing and analyzing single-cell RNA data in Python. Currently in early development, so scope and implementation details may change. The current plan involves following the Scanpy PBMC3k tutorial to get aquainted with Python, then reproducing a similar project structure for an scRNA-seq dataset on GEO.
 
 ## Project Plan
 
 - [x] Establish and manage libraries and dependencies in a venv.
-- [ ] Identify single-cell RNA dataset available on GEO.
-  - Treatment vs control study design, or variable with multiple groups.
-  - Limited sample size to reduce time spent on sequencing files.
-- [ ] File processing.
-- [ ] Data preprocessing (QC, normalization).
-- [ ] Overview analysis (PCA).
-- [ ] Feature analysis (Scanpy).
+- [ ] **Part 1:** Reproduce and adapt the [Scanpy PBMC3k workflow](https://scanpy.readthedocs.io/en/latest/tutorials/basics/clustering-2017.html) as a tutorial exercise.
+- [ ] **Part 2:** Apply the workflow to a GEO scRNA-seq dataset.
+  - [ ] Identify single-cell RNA dataset available on GEO.
+    - Treatment vs control study design, or variable with multiple groups.
+    - Limited sample size to reduce time spent on sequencing files.
+  - [ ] File processing.
+  - [ ] Data preprocessing (QC, normalization).
+  - [ ] Overview analysis (PCA).
+  - [ ] Feature analysis (Scanpy).
 
 ## Recreate environment
 
